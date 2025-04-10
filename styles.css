@@ -271,3 +271,62 @@ footer{
     flex-direction: column;
     gap: 28px;
 }
+
+@media (max-width: 767px) {
+    /* Styles for mobile devices */
+    h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .logo{
+        padding-left: 30px;
+    }
+    nav{
+        display: none;
+    }
+    .reach-me-btn{
+        scale: 0.6;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+        margin: 0;
+    }
+    p{
+        font-size: 18px;
+       
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 0;
+    }
+    .main-image{
+        scale: 0.7;
+    }
+   #second-section-p{
+    font-size: 18px;
+   }
+   .tech-stacks{
+    display: flex;
+    flex-direction: column;
+   }
+   .wordpress{
+    scale: 0.9;
+   }
+   .forum{
+    scale: 0.8;
+   }
+   .list-items{
+    font-size: 18px;
+    line-height: 28px;
+   }
+   .list-items img{
+    scale: 0.7;
+   }
+   
+
+  }
+  

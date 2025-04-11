@@ -273,9 +273,6 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /* Styles for small phones */
-}
- {
     /* Styles for mobile devices */
     h1{
         font-size: 30px;

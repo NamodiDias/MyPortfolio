@@ -272,61 +272,67 @@ footer{
     gap: 28px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-    /* Styles for mobile devices */
-    h1{
-        font-size: 30px;
-        line-height: 50px;
+@media (max-width: 768px) {
+    body {
+      padding: 0 16px;
     }
-    .logo{
-        padding-left: 30px;
+  
+    h1 {
+      font-size: 1.875rem; /* 30px */
+      line-height: 50px;
     }
-    nav{
-        display: none;
+  
+    .logo {
+      padding-left: 0;
+      margin: 0 auto;
     }
-    .reach-me-btn{
-        scale: 0.6;
+  
+    nav {
+      display: none;
     }
-    .hero-section{
-        display: flex;
-        flex-direction: column;
-        padding-top: 32px;
-        margin: 0;
+  
+    .reach-me-btn {
+      scale: 0.6;
+      margin: 0 auto;
     }
-    p{
-        font-size: 18px;
-       
+  
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+      padding-top: 32px;
+      margin: 0;
     }
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        margin: 0;
+  
+    p, #second-section-p, .list-items {
+      font-size: 1.125rem; /* 18px */
+      line-height: 28px;
     }
-    .main-image{
-        scale: 0.7;
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0;
     }
-   #second-section-p{
-    font-size: 18px;
-   }
-   .tech-stacks{
-    display: flex;
-    flex-direction: column;
-   }
-   .wordpress{
-    scale: 0.9;
-   }
-   .forum{
-    scale: 0.8;
-   }
-   .list-items{
-    font-size: 18px;
-    line-height: 28px;
-   }
-   .list-items img{
-    scale: 0.7;
-   }
-   
-
+  
+    .main-image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      align-self: center;
+    }
+  
+    .tech-stacks {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .wordpress, .forum {
+      scale: 0.9;
+    }
+  
+    .list-items img {
+      scale: 0.7;
+    }
   }
   
